@@ -1,10 +1,5 @@
-body
-{
-  margin: 0;
-  padding: 0;
-}
-
-.slide
+/* 
+.wrapper
 {
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/1.jpg);
@@ -64,7 +59,56 @@ h1
 {
   background: rgba(0,0,0,0.5);
   padding: 30px;
+}---- CSS FILE ---- */
+.navbar
+{
+  position: absolute;
+  background: transparent!important;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
 }
+
+.nav-link
+{
+  color: #fff!important;
+  margin-right: 5px;
+}
+
+.nav-link:hover
+{
+  color: rgba(16,16,216)!important;
+  margin-right: 5px;
+}
+
+#login, #signup
+{
+  border: 2px solid rgba(255, 255, 255, 0.308);
+  border-radius: 10px;
+  padding: 0.2rem 1rem!important;
+  line-height: 30px;
+}
+
+#login:hover, #signup:hover
+{
+  background-color: royalblue;
+  border: 2px solid rgba(255, 255, 255, 0.308);
+  
+}
+.search-bar
+{
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  width: 100%;
+}
+body
+{
+  
+  margin: 0;
+  padding: 0;
+}
+
   
 .single-blog
 {
