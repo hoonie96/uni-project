@@ -95,6 +95,7 @@ h1
   border: 2px solid rgba(255, 255, 255, 0.308);
   
 }
+
 .search-bar
 {
   position: absolute;
@@ -102,13 +103,30 @@ h1
   top: 100px;
   width: 100%;
 }
+
+.input-group>.form-control:focus
+{
+  box-shadow: none;
+}
+
+.input-group>.form-control
+{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
 body
 {
   
   margin: 0;
   padding: 0;
 }
-
   
 .single-blog
 {
